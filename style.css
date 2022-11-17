@@ -222,5 +222,38 @@
     display: flex;
     align-items: center;
 
-    color: #C6C6C6;
+    color: #c6c6c6;
 }
+
+
+.select-box{
+    display: flex;
+    width: 175px;
+    height: 45px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    border: 1px solid #999;
+  }
+
+.select-box img{
+    max-width: 21px;
+  }
+  .select-box select{
+    width: auto;
+    font-size: 20px;
+    background: none;
+    margin: 0 -5px 0 5px;
+  }
+  .select-box select::-webkit-scrollbar{
+    width: 10px;
+  }
+  .select-box select::-webkit-scrollbar-track{
+    background: #fff;
+  }
+  .select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #ffffff;
+  }
+

@@ -41,32 +41,34 @@
                 <section id="section">
                     <div class="left-section">
                         <p class="head">I have ...</p>
-                        <div class="currencies" id="from">
-                            <button class="firstBtn">RUB</button>
-                            <button>USD</button>
-                            <button>EUR</button>
-                            <button>GBP</button>
+                        <div class="currencies btn-from" id="from">
+                            <div class="select-box from">
+                                <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+                                <select class="countrySelect">  </select>
+                              </div>
+                            
                         </div>
 
                         <div class="amount">
-                            <input type="text" name="amount" id="amount" autocomplete="off">
-                            <p class="rate" id="fromRate"></p>
+                            <input type="text" name="amount" id="from-amount" class="input-from amountt" autocomplete="off">
+                            <p class="rate paragraph-from" id="fromRate"></p>
                         </div>
 
                     </div>
                     <div class="right-section">
                         <p class="head">I want to buy ...</p>
 
-                        <div class="currencies" id="to">
-                            <button class="firstBtn">RUB</button>
-                            <button>USD</button>
-                            <button>EUR</button>
-                            <button>GBP</button>
+                        <div class="currencies btn-to" id="to">
+                            <div class="select-box to">
+                                <img src="https://flagcdn.com/48x36/az.png" alt="flag">
+                                <select class="countrySelect">  </select>
+                              </div>
+                            
                         </div>
 
                         <div class="amount">
-                            <input type="number" name="amount" id="amount" autocomplete="off" readonly>
-                            <p class="rate" id="toRate"></p>
+                            <input type="number" name="amount" id="to-amount" class="input-to amountt" autocomplete="off" readonly>
+                            <p class="rate paragraph-to" id="toRate"></p>
 
                         </div>
                     </div>
@@ -74,11 +76,10 @@
             </div>
         </main>
     </div>
-
-    <script src="currency.js"></script>
-    <script src="app.js"></script>
-
-    <script src="ui.js"></script>
+    <script src="country-list.js"></script>
+    <script src="script1.js"></script>
+   
+    
 </body>
 
 </html>
